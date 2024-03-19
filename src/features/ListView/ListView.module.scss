@@ -1,0 +1,28 @@
+.root {
+   display: flex;
+   flex-direction: column;
+   gap: 100px;
+ .loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+ }
+
+ .cover {
+   max-width: 1252px;
+   width: 100%;
+   margin: auto;
+}
+   
+ .gridContainer {
+   display: grid; 
+   grid-template-columns: repeat(auto-fill, minmax(250px, 250px)); 
+   align-items: center;
+   gap: 67px;
+   justify-content: center;
+}
+
+
+
+}
